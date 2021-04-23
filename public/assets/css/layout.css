@@ -19,6 +19,7 @@ section, article {
 .image {
   display: inline-block;
   border: 0;
+  margin-top: 20px;
 }
 
   .image img {
@@ -35,6 +36,7 @@ section, article {
     .image.avatar48 img {
       width: 48px;
       height: 48px;
+      margin-top: 0;
     }
 
   .image.fit {
@@ -357,7 +359,7 @@ button,
   margin: 1.75em 1.5em 1.5em 1.5em;
   min-height: 48px;
   cursor: default;
-  font-family: "Sofia", sans-serif;
+  
 }
 
   #logo h1 {
@@ -366,7 +368,7 @@ button,
     font-weight: 600;
     font-size: 1em;
     line-height: 1em;
-    font-family: "Sofia", sans-serif;
+    font-family: "Audiowide", sans-serif;
   }
 
   #logo p {
@@ -376,14 +378,14 @@ button,
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.25em;
     margin: 0.5em 0 0 0;
-    font-family: "Sofia", sans-serif;
+    font-family: "Audiowide", sans-serif;
   }
 
   #logo .image {
     position: absolute;
     left: 0;
     top: 0;
-    font-family: "Sofia", sans-serif;
+    
   }
 
 #nav ul {
@@ -394,6 +396,7 @@ button,
 
   #nav ul li {
     padding-left: 0;
+    font-family: "Audiowide", sans-serif;
   }
 
     #nav ul li a {

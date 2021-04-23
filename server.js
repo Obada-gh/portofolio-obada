@@ -29,6 +29,8 @@ server.get('/data',(req,res)=>{
     res.send('you are in the data page');
 })
 
+server.use(express.static('./public'));
+
 
 // to access a file in public directory
 // server.use(express.static('./public'));
