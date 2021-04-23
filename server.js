@@ -8,6 +8,7 @@ const server = express();
 
 
 const PORT =  process.env.PORT || 3010;
+server.use(express.static('./public'));
 
 // the server is ready for listening
 server.listen(PORT, ()=>{
@@ -29,7 +30,7 @@ server.get('/data',(req,res)=>{
     res.send('you are in the data page');
 })
 
-server.use(express.static('./public'));
+
 
 
 // to access a file in public directory
